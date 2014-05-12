@@ -1,7 +1,14 @@
+/*------------------------------
+			Document
+------------------------------*/
+var num
+var answer 
+var guessCount = 0
+
 
 $(document).ready(function(){
-	
-newGame();
+
+	newGame();
 
 	/*--- Display information modal box ---*/
   	$(".what").click(function(){
@@ -95,8 +102,6 @@ newGame();
 		console.log("new game");
 		console.log(answer);
 	}
-
-
 
 
 
